@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<script>
+
+
+
+let log=prompt("Введите логин");
+if (log==null) {
+    alert("Вход отменён"); //долго думал, что же возвращает, когда нажимается кнопка отмена. гуглил. в итоге всё оказалось очень просто. 
+   }
+else if (log!="Админ") {
+    alert("Пользователь не найден");
+}
+else {
+   let pas=prompt("Введите пароль");
+}
+if (pas=="123321") {
+     alert("Добро пожаловать!");
+   }
+else if (pas==null) {
+    alert ("Вход отменён");
+}
+else {
+      alert("Пароль неверен");
+}
+
+
+
+ </script>    
+
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<script>
+let hour=prompt ("Введите значение текущего часа от 0 до 24");
+
+if ((hour>=0 && hour<=2) || (hour>=12 && hour<=14)) {
+    alert ("Ваше время в первой четверти!");
+}
+else if ((hour>=3 && hour<=5) || (hour>=15 && hour<=17)) {
+    alert ("Ваше время во второй четверти!");
+}
+else if ((hour>=6 && hour<=8) || (hour>=18 && hour<=20)) {
+    alert ("Ваше время в третей четверти!");
+}
+else if ((hour>=9 && hour<=11)|| (hour>=21 && hour<=23)) {
+    alert ("Ваше время в четвёртой четверти!");
+}
+else if (hour==null) {
+    alert ("Ввод отменён");
+}
+else {
+    alert ("Вы ввели неверное число");
+}
+</script>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
